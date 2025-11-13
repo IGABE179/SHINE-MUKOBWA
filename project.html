@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shine Umukobwa Project</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: #f8f9fc;
+      color: #444;
+      line-height: 1.8;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background: #fff;
+      max-width: 850px;
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      padding: 40px 50px;
+      animation: fadeIn 0.6s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #2d2d2d;
+      margin-bottom: 15px;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #1d3557;
+      margin: 35px 0 15px;
+      border-left: 5px solid #f4a261;
+      padding-left: 10px;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li {
+      background: #f1faee;
+      padding: 12px 15px;
+      margin-bottom: 10px;
+      border-left: 4px solid #f4a261;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    li:hover {
+      background: #eaf4f4;
+      transform: translateX(4px);
+    }
+
+    a {
+      color: #457b9d;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 25px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Shine Umukobwa Project</h1>
+    <p>
+      <strong>Shine Umukobwa</strong> is a project that aims to empower rural teenage girls by providing them with access to learning resources, mentorship, and confidence-building opportunities. 
+      The initiative operates in Rwanda under the <em>Shine Foundation</em> and is dedicated to transforming the lives of young girls through education and empowerment.
+    </p>
+
+    <h2>Project Objectives</h2>
+    <ul>
+      <li>Empower rural teenage girls to discover their purpose and potential.</li>
+      <li>Provide access to quality education, training, and learning resources.</li>
+      <li>Foster a strong sense of community and belonging among participants.</li>
+      <li>Build confidence and self-esteem through mentorship and personal development support.</li>
+    </ul>
+
+    <p>
+      Learn more about our programs at 
+      <a href="#">www.shineumukobwa.org</a>
+    </p>
+  </div>
+</body>
+</html>
